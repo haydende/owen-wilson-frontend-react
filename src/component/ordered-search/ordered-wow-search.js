@@ -13,7 +13,8 @@ export default function OrderedWowSearch() {
             total_wows_in_movie: 2,
             timestamp: '01:20:03',
             full_line: 'Wow, that\'s a lot of wows!',
-            poster: ''
+            poster: '',
+            audio: ''
         },
         {
             movie: 'The Owen Wilson Movie 2: The Wowenning',
@@ -24,13 +25,14 @@ export default function OrderedWowSearch() {
             total_wows_in_movie: 3,
             timestamp: '02:01:59',
             full_line: 'Oh wow!',
-            poster: ''
+            poster: '',
+            audio: ''
         }
     ]
 
-    const startIndex = useRef()
-    const endIndex = useRef()
-    const useEndIndex = useRef()
+    const [startIndex, setStartIndex] = useState(0)
+    const [endIndex, setEndIndex] = useState(0)
+    const [useEndIndex, setUseEndIndex] = useState(false)
 
     const [submitted, setSubmitted] = useState(false)
     const [error, setError] = useState(null)
@@ -40,7 +42,7 @@ export default function OrderedWowSearch() {
         event.preventDefault()
         setSubmitted(true)
         setWows(dummyWows)
-        console.log(`Submitted with values [startIndex: ${startIndex.current.value}, endIndex: ${endIndex.current.value}, useEndIndex: ${useEndIndex.current.value}`)
+        console.log(`Submitted with values [startIndex: ${startIndex}, endIndex: ${endIndex}, useEndIndex: ${useEndIndex}`)
     }
 
     return (
@@ -49,12 +51,24 @@ export default function OrderedWowSearch() {
                 <div>
                     <div>
                         <label htmlFor="start-index-input">Start at index:</label>
-                        <input id="start-index-input" type="number" ref={startIndex} />
+                        <input
+                            id="start-index-input"
+                            type="number"
+                            value={startIndex}
+                            onChange={(event) => setStartIndex(event.target.value)} />
                     </div>
                     <div>
                         <label htmlFor="end-index-input">End at index:</label>
-                        <input id="end-index-input" type="number" ref={endIndex} />
-                        <input id="end-index-toggle" type="checkbox" ref={useEndIndex} />
+                        <input
+                            id="end-index-input"
+                            type="number"
+                            value={endIndex}
+                            disabled={!useEndIndex}
+                            onChange={(event) => setEndIndex(event.target.value)} />
+                        <input
+                            id="end-index-toggle"
+                            type="checkbox"
+                            onChange={() => setUseEndIndex(!useEndIndex)} />
                     </div>
                     <div>
                         <button id="submit-button" type="submit">Submit</button>
