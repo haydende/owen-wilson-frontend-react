@@ -1,7 +1,6 @@
-import OrderedWowSearch from "./component/ordered-search/ordered-wow-search";
 
 function App() {
-    return <OrderedWowSearch />
+    return "TODO"
 }
 
 export default App;

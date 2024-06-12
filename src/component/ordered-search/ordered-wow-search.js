@@ -3,33 +3,6 @@ import WowList from "../wow-list/wow-list";
 
 export default function OrderedWowSearch() {
 
-    const dummyWows = [
-        {
-            movie: 'The Owen Wilson Movie',
-            director: 'Someone That Isn\'t Owen Wilson',
-            year: '2018',
-            character: 'Owen Wilson',
-            current_wow_in_movie: 1,
-            total_wows_in_movie: 2,
-            timestamp: '01:20:03',
-            full_line: 'Wow, that\'s a lot of wows!',
-            poster: '',
-            audio: ''
-        },
-        {
-            movie: 'The Owen Wilson Movie 2: The Wowenning',
-            director: 'Someone Else That Isn\'t Owen Wilson',
-            year: '2020',
-            character: 'Owen Wilson',
-            current_wow_in_movie: 3,
-            total_wows_in_movie: 3,
-            timestamp: '02:01:59',
-            full_line: 'Oh wow!',
-            poster: '',
-            audio: ''
-        }
-    ]
-
     const [startIndex, setStartIndex] = useState(0)
     const [endIndex, setEndIndex] = useState(0)
     const [useEndIndex, setUseEndIndex] = useState(false)
@@ -41,7 +14,6 @@ export default function OrderedWowSearch() {
     function submit(event) {
         event.preventDefault()
         setSubmitted(true)
-        setWows(dummyWows)
         console.log(`Submitted with values [startIndex: ${startIndex}, endIndex: ${endIndex}, useEndIndex: ${useEndIndex}`)
     }
 
