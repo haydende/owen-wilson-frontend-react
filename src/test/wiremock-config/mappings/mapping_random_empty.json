@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/wows/random"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "responses/empty.json",
+    "headers": {
+      "content-type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

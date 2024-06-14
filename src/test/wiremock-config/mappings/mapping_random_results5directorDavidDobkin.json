@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/wows/random?results=5&director=David%20Dobkin"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "responses/random/results5directorDavidDobkin.json",
+    "headers": {
+      "content-type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

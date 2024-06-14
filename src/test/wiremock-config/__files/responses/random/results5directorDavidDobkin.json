@@ -1,0 +1,102 @@
+[
+  {
+    "movie": "Shanghai Knights",
+    "year": 2003,
+    "release_date": "2003-02-03",
+    "director": "David Dobkin",
+    "character": "Roy O'Bannon",
+    "movie_duration": "01:54:21",
+    "timestamp": "00:52:05",
+    "full_line": "Wow, look at this!",
+    "current_wow_in_movie": 2,
+    "total_wows_in_movie": 4,
+    "poster": "https://images.ctfassets.net/bs8ntwkklfua/4pb4EMrNtfK3x9PyTMLcGl/bd4d6db24a4247b0f33211eeb882c26a/Shanghai_Knights_Poster.jpg",
+    "video": {
+      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/5sh5zG45deju3no63NYxjz/7164b7c94e7942216205300158f8ee68/Shanghai_Knights_Wow_2_1080p.mp4",
+      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/75UZ7QgK2eIKrjPCPNShUk/9d190b694e1b3d47df022eda47d130ad/Shanghai_Knights_Wow_2_720p.mp4",
+      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/lmj6Wg0NzVCCxEeYZtFEo/b8ce31f27c910714666f61ebe1007985/Shanghai_Knights_Wow_2_480p.mp4",
+      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/zHoyxfFdX5eXvjfc9vTHQ/d3b181d3533ae9d99f53cf02cf1f93d3/Shanghai_Knights_Wow_2_360p.mp4"
+    },
+    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/HY1HVUJwet1h4Dlte0UYI/edb77c0e009d51a8a159764bf7281368/Shanghai_Knights_Wow_2.mp3"
+  },
+  {
+    "movie": "Shanghai Knights",
+    "year": 2003,
+    "release_date": "2003-02-03",
+    "director": "David Dobkin",
+    "character": "Roy O'Bannon",
+    "movie_duration": "01:54:21",
+    "timestamp": "00:39:02",
+    "full_line": "Wow, Buckingham Palace!",
+    "current_wow_in_movie": 1,
+    "total_wows_in_movie": 4,
+    "poster": "https://images.ctfassets.net/bs8ntwkklfua/4pb4EMrNtfK3x9PyTMLcGl/bd4d6db24a4247b0f33211eeb882c26a/Shanghai_Knights_Poster.jpg",
+    "video": {
+      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/2rmXwKJYLDSA08iYq2gOGx/72384eb2fbd9b3555f7ea9560d7ded73/Shanghai_Knights_Wow_1_1080p.mp4",
+      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/3at7oG8tmadEBq7PeaQ3P2/c43dea48dd016ec28769288f3525d59c/Shanghai_Knights_Wow_1_720p.mp4",
+      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/7M90KKHBHe5wxwxLBMafPf/ecd56ef6096002031e6f6f590c61041e/Shanghai_Knights_Wow_1_480p.mp4",
+      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/2GjVQPn8UzPcwSzCbIO3Rj/e87b74ac48f7256bcaa970d056ab8e63/Shanghai_Knights_Wow_1_360p.mp4"
+    },
+    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/5G6vt63vQvVVcvqh7wrtty/3a5936c6dbc05d16e3d3b6b758cd1518/Shanghai_Knights_Wow_1.mp3"
+  },
+  {
+    "movie": "Wedding Crashers",
+    "year": 2005,
+    "release_date": "2005-07-15",
+    "director": "David Dobkin",
+    "character": "John Beckwith",
+    "movie_duration": "02:07:01",
+    "timestamp": "01:50:19",
+    "full_line": "Oh man, I feel like, 'Wow!'",
+    "current_wow_in_movie": 5,
+    "total_wows_in_movie": 6,
+    "poster": "https://images.ctfassets.net/bs8ntwkklfua/63oBfAAq34Dmki4L22XFmm/95329ef249b17f578d752f4e8e53977c/Wedding_Crashers_Poster.jpg",
+    "video": {
+      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/1YzR1Pzp9xdKpeVx5g3jIr/30e64e2e04052757d25f604b94b2e75f/Wedding_Crashers_Wow_5_1080p.mp4",
+      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/1jMKkwnCZi7RUHViZZTLNC/4f76282a738dc7fd7163d8bbbb3e2477/Wedding_Crashers_Wow_5_720p.mp4",
+      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/70ioTuxJxr7IzPXOsu8rup/f8929c2da3d5d0732c5448ab611edfab/Wedding_Crashers_Wow_5_480p.mp4",
+      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/1ucIp9SJYuJK2Vlfop0DNp/bcf9755c771738206286ab530192bf74/Wedding_Crashers_Wow_5_360p.mp4"
+    },
+    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/3o4FwZeAcd35eMg8G0LNmj/d2557eeb4cc53addd6efcb82b1543a9c/Wedding_Crashers_Wow_5.mp3"
+  },
+  {
+    "movie": "Wedding Crashers",
+    "year": 2005,
+    "release_date": "2005-07-15",
+    "director": "David Dobkin",
+    "character": "John Beckwith",
+    "movie_duration": "02:07:01",
+    "timestamp": "01:43:21",
+    "full_line": "Wow.",
+    "current_wow_in_movie": 4,
+    "total_wows_in_movie": 6,
+    "poster": "https://images.ctfassets.net/bs8ntwkklfua/63oBfAAq34Dmki4L22XFmm/95329ef249b17f578d752f4e8e53977c/Wedding_Crashers_Poster.jpg",
+    "video": {
+      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/15S9Kp3ebc5LY5ayzrg7H3/46ce195d249ccaeeda296c6319b62001/Wedding_Crashers_Wow_4_1080p.mp4",
+      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/4vJaQ98fzJUVtEqJY4C7CJ/772be52830dd6aa0336a862897bb35e2/Wedding_Crashers_Wow_4_720p.mp4",
+      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/wwlwgCB7arFuP2LjEJYcZ/cdff01a57064feb8bb30a321bbf651c4/Wedding_Crashers_Wow_4_480p.mp4",
+      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/5gyoL7ygfEV5k0ljIGvoPX/b4ce054d5c87386590a28429614668ad/Wedding_Crashers_Wow_4_360p.mp4"
+    },
+    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/2k0L7bNPOllxMn7erZiLct/fe86f146fd50b24b39eb59b028296f79/Wedding_Crashers_Wow_4.mp3"
+  },
+  {
+    "movie": "Shanghai Knights",
+    "year": 2003,
+    "release_date": "2003-02-03",
+    "director": "David Dobkin",
+    "character": "Roy O'Bannon",
+    "movie_duration": "01:54:21",
+    "timestamp": "01:36:17",
+    "full_line": "Hey, I can see our hotel from here! Wow.",
+    "current_wow_in_movie": 3,
+    "total_wows_in_movie": 4,
+    "poster": "https://images.ctfassets.net/bs8ntwkklfua/4pb4EMrNtfK3x9PyTMLcGl/bd4d6db24a4247b0f33211eeb882c26a/Shanghai_Knights_Poster.jpg",
+    "video": {
+      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/1Astr9fayq6pkeVYJmdBVU/9e04fa628af74c800e7f43f7a9e0d2e7/Shanghai_Knights_Wow_3_1080p.mp4",
+      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/qBYwhnty0x84phmWdja6a/3e850e18d50292c991c7a4a6c6ff46c6/Shanghai_Knights_Wow_3_720p.mp4",
+      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/13KD5BugQh9PFuVnlg1Tz0/aff15774860e37ef1dd99d796eb19da5/Shanghai_Knights_Wow_3_480p.mp4",
+      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/5p6Aw1VCGpcwLN6zjlEKfD/dced95d07ad71e391c85a712e6ea90b9/Shanghai_Knights_Wow_3_360p.mp4"
+    },
+    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/6BOieQV4K46p9nm7rFc7eG/cc7465cb72c8fb48ee9fc6b82470d1fd/Shanghai_Knights_Wow_3.mp3"
+  }
+]

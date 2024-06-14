@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/wows/random?results=10&movie=Shanghai%20Knights"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "responses/random/results10movieShanghaiKnights.json",
+    "headers": {
+      "content-type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

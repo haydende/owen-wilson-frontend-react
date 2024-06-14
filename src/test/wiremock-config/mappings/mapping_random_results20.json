@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/wows/random?results=20"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "responses/random/results20.json",
+    "headers": {
+      "content-type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
