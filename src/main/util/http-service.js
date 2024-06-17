@@ -3,6 +3,20 @@ import { NOT_APPLICABLE, URL_BASE } from "../constants";
 
 export default class HttpService {
 
+    static async getDirectorNames() {
+        let requestUrl = `${URL_BASE}/directors`
+
+        return await global.fetch(requestUrl)
+            .then(response => response.json())
+    }
+
+    static async getMovieNames() {
+        let requestUrl = `${URL_BASE}/movies`
+
+        return await global.fetch(requestUrl)
+            .then(response => response.json())
+    }
+
     static async getRandom(results, year, movie, director) {
 
         let requestUrl = `${URL_BASE}/random`
@@ -31,10 +45,7 @@ export default class HttpService {
         return await global
             .fetch(requestUrl,
                 {
-                    method: 'GET',
-                    headers: {
-                        'content-type': 'application/json'
-                    }
+                    method: 'GET'
                 }
             )
             .then(async r => await r.json())

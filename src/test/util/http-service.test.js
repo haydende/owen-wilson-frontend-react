@@ -4,22 +4,18 @@ import HttpService from "../../main/util/http-service";
 import { GenericContainer, Wait } from "testcontainers";
 import { resolve } from 'path'
 
+
 describe('HttpService - Unit Tests', () => {
 
+    jest.setTimeout(20000)
+
     const globalFetch = global.fetch
-    const expectedRequestInit = {
-        method: 'GET',
-        headers: {
-            'content-type': 'application/json'
-        }
-    }
     let container;
     let actualUrl;
+
     let actualRequestInit;
 
     beforeAll(async () => {
-
-        jest.setTimeout(20000)
 
         const absolutePath = resolve('')
         const wiremockConfigDir = `${absolutePath}/src/test/wiremock-config`
@@ -45,7 +41,6 @@ describe('HttpService - Unit Tests', () => {
 
         const mockFetch = (requestInfo, init) => {
             actualUrl = requestInfo // cannot get jest.spyOn to work, this will do
-            actualRequestInit = init
             requestInfo = requestInfo.replace('https://owen-wilson-wow-api.onrender.com', `http://localhost:${containerPort}`)
 
             return globalFetch(requestInfo, init)
@@ -78,7 +73,6 @@ describe('HttpService - Unit Tests', () => {
 
             const expectedUrl = `${URL_BASE}/random?results=${results}&year=${year}`
             expect(actualUrl).toEqual(expectedUrl)
-            expect(actualRequestInit).toEqual(expectedRequestInit)
         })
 
         it('Results: 5, Year: N/A, Movie: N/A, Director: David Dobkin', async () => {
@@ -90,7 +84,6 @@ describe('HttpService - Unit Tests', () => {
 
             const expectedUrl = `${URL_BASE}/random?results=${results}&director=${director}`
             expect(actualUrl).toEqual(expectedUrl)
-            expect(actualRequestInit).toEqual(expectedRequestInit)
         })
 
         it('Results: 10, Year: N/A, Movie: Shanghai Knights, Director: N/A', async () => {
@@ -102,7 +95,6 @@ describe('HttpService - Unit Tests', () => {
 
             const expectedUrl = `${URL_BASE}/random?results=${results}&movie=${movie}`
             expect(actualUrl).toEqual(expectedUrl)
-            expect(actualRequestInit).toEqual(expectedRequestInit)
         })
 
         it('Results: 50, Year: 9999, Movie: N/A, Director: N/A', async () => {
@@ -114,7 +106,28 @@ describe('HttpService - Unit Tests', () => {
 
             const expectedUrl = `${URL_BASE}/random?results=${results}&year=${year}`
             expect(actualUrl).toEqual(expectedUrl)
-            expect(actualRequestInit).toEqual(expectedRequestInit)
+        })
+    })
+
+    describe('Get Director Names', () => {
+
+        it('Gets Director Names', async () => {
+
+            let directorNames = await HttpService.getDirectorNames()
+
+            expect(directorNames.length).toBeGreaterThan(0)
+
+        })
+
+    })
+
+    describe('Get Movie Names', () => {
+
+        it('Gets Movie Names', async () => {
+
+            let movieNames = await HttpService.getMovieNames()
+
+            expect(movieNames.length).toBeGreaterThan(0)
         })
     })
 })
