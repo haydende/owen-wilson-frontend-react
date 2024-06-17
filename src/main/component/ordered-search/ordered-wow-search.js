@@ -1,5 +1,6 @@
-import React, {useRef, useState} from "react";
+import React, { useState } from "react";
 import WowList from "../wow-list/wow-list";
+import HttpService from "../../util/http-service";
 
 export default function OrderedWowSearch() {
 
@@ -11,10 +12,16 @@ export default function OrderedWowSearch() {
     const [error, setError] = useState(null)
     const [wows, setWows] = useState(Array.of(0))
 
-    function submit(event) {
+    async function submit(event) {
         event.preventDefault()
         setSubmitted(true)
-        console.log(`Submitted with values [startIndex: ${startIndex}, endIndex: ${endIndex}, useEndIndex: ${useEndIndex}`)
+        console.debug(`Submitted with values [startIndex: ${startIndex}, endIndex: ${endIndex}, useEndIndex: ${useEndIndex}`)
+
+        const orderedWows = await HttpService.getOrdered(
+            startIndex,
+            useEndIndex ? endIndex : startIndex
+        )
+        setWows(orderedWows)
     }
 
     return (
