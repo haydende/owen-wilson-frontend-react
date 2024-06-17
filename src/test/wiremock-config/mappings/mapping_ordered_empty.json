@@ -1,0 +1,15 @@
+{
+  "priority": 500,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/wows/ordered/([0-9]*)-([0-9]*)"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "responses/empty.json",
+    "headers": {
+      "content-type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}

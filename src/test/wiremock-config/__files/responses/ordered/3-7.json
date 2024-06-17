@@ -1,0 +1,102 @@
+[
+  {
+    "movie": "The Haunting",
+    "year": 1999,
+    "release_date": "1999-07-23",
+    "director": "Jan de Bont",
+    "character": "Luke Sanderson",
+    "movie_duration": "01:52:37",
+    "timestamp": "00:23:20",
+    "full_line": "Okay, obsessive indecision. Wow.",
+    "current_wow_in_movie": 1,
+    "total_wows_in_movie": 5,
+    "poster": "https://images.ctfassets.net/bs8ntwkklfua/6Zu7ux0JYrUWk0UC8vxPtj/d0da8bfbad670655779a9921ac514759/The_Haunting_Poster.jpg",
+    "video": {
+      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/10eXG7hCb3ZgZa5uVfTL8x/a879acc0f52d81171804efc904e6b05d/The_Haunting_Wow_1_1080p.mp4",
+      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/3LecX00nok4o0vmKUlOpYs/640389e05b9b7a1c8ebd43c90dcd6cbb/The_Haunting_Wow_1_720p.mp4",
+      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/ppd78TmYD92RqnbmYKsxN/ba8a792db78f21fb28df5168855399a4/The_Haunting_Wow_1_480p.mp4",
+      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/2RFXb9ZvddbiRAX3wTGLz1/01a1dc79b0f2f36ad1bfe491003250e2/The_Haunting_Wow_1_360p.mp4"
+    },
+    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/7l3exXFeBHzBdzFhz5Z6J6/1f3d7996d710a7dae8b657daed912309/The_Haunting_Wow_1.mp3"
+  },
+  {
+    "movie": "The Haunting",
+    "year": 1999,
+    "release_date": "1999-07-23",
+    "director": "Jan de Bont",
+    "character": "Luke Sanderson",
+    "movie_duration": "01:52:37",
+    "timestamp": "00:23:30",
+    "full_line": "Wow, you're so dominant.",
+    "current_wow_in_movie": 2,
+    "total_wows_in_movie": 5,
+    "poster": "https://images.ctfassets.net/bs8ntwkklfua/6Zu7ux0JYrUWk0UC8vxPtj/d0da8bfbad670655779a9921ac514759/The_Haunting_Poster.jpg",
+    "video": {
+      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/NiRJbAgDb0L7VWsUfavhf/58c90628eaf4ac7283b77a42523655c8/The_Haunting_Wow_2_1080p.mp4",
+      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/1oaLgXumERCrVYFNlIemVS/5f23e81ec8fcca8a0707dd01d750f3eb/The_Haunting_Wow_2_720p.mp4",
+      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/7gJCwsq8ae8h3ChzRLofXR/24bdd578de7a009dfb62028151404d28/The_Haunting_Wow_2_480p.mp4",
+      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/dviTTb9fuFuTSu5xNxy3d/95ee653558e2c36ee8b78c556d8473c2/The_Haunting_Wow_2_360p.mp4"
+    },
+    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/4cedRRK2wHf3EM6Btf3XXG/20a89f4233361ff516032e89a9e17dc5/The_Haunting_Wow_2.mp3"
+  },
+  {
+    "movie": "The Haunting",
+    "year": 1999,
+    "release_date": "1999-07-23",
+    "director": "Jan de Bont",
+    "character": "Luke Sanderson",
+    "movie_duration": "01:52:37",
+    "timestamp": "00:25:50",
+    "full_line": "Wow.",
+    "current_wow_in_movie": 3,
+    "total_wows_in_movie": 5,
+    "poster": "https://images.ctfassets.net/bs8ntwkklfua/6Zu7ux0JYrUWk0UC8vxPtj/d0da8bfbad670655779a9921ac514759/The_Haunting_Poster.jpg",
+    "video": {
+      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/4BMbcttXdCTRqJlangSx5X/5538a4e5a4250496e0863e18a8852db6/The_Haunting_Wow_3_1080p.mp4",
+      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/3SPyY9xmnfKYLqDF9v1YuG/7b5c5abb0bd0b98dc84b25a39f5fadbe/The_Haunting_Wow_3_720p.mp4",
+      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/5CiaFmd1nRoapI5dPHV88i/d21ab61fc3a00bd3fbdc2c5ec1c82598/The_Haunting_Wow_3_480p.mp4",
+      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/5i0dpiq2lGQMK9V1wHkSvM/ef53166dd842715dc7b5d2f43562405a/The_Haunting_Wow_3_360p.mp4"
+    },
+    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/2xYFEMZD3gRYYywaX50RDm/5cfe0f8c6a2b3794d00cf1f4c9e0c95f/The_Haunting_Wow_3.mp3"
+  },
+  {
+    "movie": "The Haunting",
+    "year": 1999,
+    "release_date": "1999-07-23",
+    "director": "Jan de Bont",
+    "character": "Luke Sanderson",
+    "movie_duration": "01:52:37",
+    "timestamp": "00:41:34",
+    "full_line": "Wow, I sorta got screwed on the ol' bedroom selection.",
+    "current_wow_in_movie": 4,
+    "total_wows_in_movie": 5,
+    "poster": "https://images.ctfassets.net/bs8ntwkklfua/6Zu7ux0JYrUWk0UC8vxPtj/d0da8bfbad670655779a9921ac514759/The_Haunting_Poster.jpg",
+    "video": {
+      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/01C128tlGJ79vtlFEPc7V9/184759a9ca6fb1ab57114977afccb2ff/The_Haunting_Wow_4_1080p.mp4",
+      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/3fR8AigFIp2I1vkSLRhzur/afb0c226daf7806bc9bd9c5e7b008fb4/The_Haunting_Wow_4_720p.mp4",
+      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/1OCimrvhXGGfffHqBKaqz7/52d16b12a2d1a8a264b09364afc4c87c/The_Haunting_Wow_4_480p.mp4",
+      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/6bwt57tdhBCbhsXZ4i0pce/7f6debc7e52f80c78a618f19c8087985/The_Haunting_Wow_4_360p.mp4"
+    },
+    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/3yvd3DvmY0XUyqWPLUYLqp/1aabc0f7a6b58003ccdaa61469b8d5ee/The_Haunting_Wow_4.mp3"
+  },
+  {
+    "movie": "The Haunting",
+    "year": 1999,
+    "release_date": "1999-07-23",
+    "director": "Jan de Bont",
+    "character": "Luke Sanderson",
+    "movie_duration": "01:52:37",
+    "timestamp": "00:47:26",
+    "full_line": "Yeah, no kidding. Did you see what she had on yesterday? Wow.",
+    "current_wow_in_movie": 5,
+    "total_wows_in_movie": 5,
+    "poster": "https://images.ctfassets.net/bs8ntwkklfua/6Zu7ux0JYrUWk0UC8vxPtj/d0da8bfbad670655779a9921ac514759/The_Haunting_Poster.jpg",
+    "video": {
+      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/5V9kXvppEhk94nRMnOriQQ/644d5e03b50e7caea24e29b69c5877d5/The_Haunting_Wow_5_1080p.mp4",
+      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/2PUQHii6BCgBc8DEQXNFf/606a9f0416c61f32cf7f73a0b03905b5/The_Haunting_Wow_5_720p.mp4",
+      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/5PkqPsQJf6QMIiot8TlU2B/5528db99aef97942910c5686d57be2b0/The_Haunting_Wow_5_480p.mp4",
+      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/6LaRV3jrg0cU2IxLpV2k5Y/572c8b8f066c0b9c79106074f91e53f8/The_Haunting_Wow_5_360p.mp4"
+    },
+    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/2NybZG8xOaIEKZ3hSPi3zg/48d17e1b4bdf836300b99618c8355f58/The_Haunting_Wow_5.mp3"
+  }
+]

@@ -109,6 +109,49 @@ describe('HttpService - Unit Tests', () => {
         })
     })
 
+    describe('Get Ordered Wows', () => {
+
+        it('StartIndex: 0, EndIndex: 5', async () => {
+
+            const startIndex = 0
+            const endIndex = 5
+
+            const response = await HttpService.getOrdered(startIndex, endIndex)
+
+            expect(response.length).toEqual(6)
+        })
+
+        it('StartIndex: 3, EndIndex: 7', async () => {
+
+            const startIndex = 3
+            const endIndex = 7
+
+            const response = await HttpService.getOrdered(startIndex, endIndex)
+
+            expect(response.length).toEqual(5)
+        })
+
+        it('StartIndex: 14, EndIndex: 14', async () => {
+
+            const startIndex = 14
+
+            const response = await HttpService.getOrdered(startIndex, startIndex)
+
+            expect(response.length).toEqual(1)
+        })
+
+        it('StartIndex: 3000, EndIndex: 4000', async () => {
+
+            const startIndex = 3000
+            const endIndex = 4000
+
+            const response = await HttpService.getOrdered(startIndex, endIndex)
+
+            expect(response.length).toEqual(0)
+        })
+
+    })
+
     describe('Get Director Names', () => {
 
         it('Gets Director Names', async () => {

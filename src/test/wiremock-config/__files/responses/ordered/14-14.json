@@ -1,0 +1,22 @@
+[
+  {
+    "movie": "I Spy",
+    "year": 2002,
+    "release_date": "2002-10-23",
+    "director": "Betty Thomas",
+    "character": "Alexander Scott",
+    "movie_duration": "01:36:35",
+    "timestamp": "00:49:41",
+    "full_line": "Wow, we're stuck.",
+    "current_wow_in_movie": 2,
+    "total_wows_in_movie": 3,
+    "poster": "https://images.ctfassets.net/bs8ntwkklfua/6qRNbbZZDNP3iY3sGlmHJp/46861dc3073138713ee9151d0f0a6cc4/I_Spy_Poster.jpg",
+    "video": {
+      "1080p": "https://videos.ctfassets.net/bs8ntwkklfua/1jFS12MR5aISqmhw1spzDe/d7be1629aa508428615ac078eed605bc/I_Spy_Wow_2_1080p.mp4",
+      "720p": "https://videos.ctfassets.net/bs8ntwkklfua/7hwGECMkO0lL1JH4ciDK2v/bfbced8a4b02b6d38087be29d3c1bb57/I_Spy_Wow_2_720p.mp4",
+      "480p": "https://videos.ctfassets.net/bs8ntwkklfua/wei3aiOGDPltJjZDz3qyw/c3d218cb0bf360a26f2a06178c4c1f9f/I_Spy_Wow_2_480p.mp4",
+      "360p": "https://videos.ctfassets.net/bs8ntwkklfua/6gszl9ewf6J2yUjAZkyLeo/93c2933b80d99ce8f250856e6eb7ea93/I_Spy_Wow_2_360p.mp4"
+    },
+    "audio": "https://assets.ctfassets.net/bs8ntwkklfua/7hqbnPZJ0gqNiuRmeEt547/0c06a0f62e74da6dd847416b3af380e0/I_Spy_Wow_2.mp3"
+  }
+]

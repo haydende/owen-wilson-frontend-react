@@ -42,6 +42,7 @@ export default class HttpService {
             isFirstParam = false;
         }
 
+        console.debug(`Sending request to: ${requestUrl}`)
         return await global
             .fetch(requestUrl,
                 {
@@ -49,6 +50,23 @@ export default class HttpService {
                 }
             )
             .then(async r => await r.json())
+    }
+
+    static async getOrdered(startIndex, endIndex) {
+        let requestUrl = `${URL_BASE}/ordered/${startIndex}`
+
+        let concat;
+        if (endIndex && endIndex >= startIndex) {
+            concat = `-${endIndex}`
+        } else {
+            concat = `-${startIndex}`
+        }
+
+        requestUrl = requestUrl.concat(concat)
+
+        console.debug(`Sending request to: ${requestUrl}`)
+        return await global.fetch(requestUrl)
+            .then(response => response.json())
     }
 
     static addParam(requestUrl, paramName, paramVal, isFirstParam) {

@@ -1,0 +1,15 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "url": "/wows/ordered/0-5"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "responses/ordered/0-5.json",
+    "headers": {
+      "content-type": "application/json",
+      "Access-Control-Allow-Origin": "*"
+    }
+  }
+}
