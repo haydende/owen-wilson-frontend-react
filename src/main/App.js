@@ -1,6 +1,7 @@
+import NavigationBar from "./component/navigation/navigation-bar";
 
 function App() {
-    return "TODO"
+    return <NavigationBar />
 }
 
 export default App;
