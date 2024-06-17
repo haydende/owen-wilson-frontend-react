@@ -1,52 +1,46 @@
 
-import React, { useState } from 'react'
+import React, {useEffect, useState} from 'react'
 import WowList from "../wow-list/wow-list";
+import HttpService from "../../util/http-service";
+import {NOT_APPLICABLE} from "../../constants";
 
 export default function RandomWowSearch() {
 
-    const dummyWows = [
-        {
-            movie: 'The Owen Wilson Movie',
-            director: 'Someone That Isn\'t Owen Wilson',
-            release_date: '2018',
-            character: 'Owen Wilson',
-            current_wow_in_movie: 1,
-            total_wows_in_movie: 2,
-            timestamp: '01:20:03',
-            full_line: 'Wow, that\'s a lot of wows!',
-            poster: '',
-            audio: ''
-        },
-        {
-            movie: 'The Owen Wilson Movie 2: The Wowenning',
-            director: 'Someone Else That Isn\'t Owen Wilson',
-            release_date: '2020',
-            character: 'Owen Wilson',
-            current_wow_in_movie: 3,
-            total_wows_in_movie: 3,
-            timestamp: '02:01:59',
-            full_line: 'Oh wow!',
-            poster: '',
-            audio: ''
-        }
-    ]
+    const [movieList, setMovieList] = useState([NOT_APPLICABLE])
+    const [directorList, setDirectorList] = useState([NOT_APPLICABLE])
 
-    const [directorNames, setDirectorNames] = useState(["Wilson Owen"])
-    const [movieNames, setMovieNames] = useState(["The Movie Movie 2"])
+    useEffect(() => {
+
+        async function fetchMovieNames() {
+            console.log("Sending request for movie names")
+            setMovieList([NOT_APPLICABLE, ...await HttpService.getMovieNames()])
+        }
+
+        async function fetchDirectorNames() {
+            console.log("Sending request for director names")
+            setDirectorList([NOT_APPLICABLE, ...await HttpService.getDirectorNames()])
+        }
+
+        fetchDirectorNames()
+        fetchMovieNames()
+
+    }, [])
+
     const [submitted, setSubmitted] = useState()
     const [wows, setWows] = useState(Array.of(0))
     const [error, setError] = useState(null)
 
     const [results, setResults] = useState(5)
     const [year, setYear] = useState(2000)
-    const [movieName, setMovieName] = useState(movieNames[0])
-    const [directorName, setDirectorName] = useState(directorNames[0])
+    const [movieName, setMovieName] = useState()
+    const [directorName, setDirectorName] = useState()
 
-    function submit(event) {
+    async function submit(event) {
         event.preventDefault()
         setSubmitted(true)
-        setWows(dummyWows)
-        console.log(`Submitted with values [results: ${results}, year: ${year}, movieName: ${movieName}, directorName: ${directorName}`)
+        console.debug(`Submitted with values [results: ${results}, year: ${year}, movieName: ${movieName}, directorName: ${directorName}`)
+        const randomWows = await HttpService.getRandom(results, year, movieName, directorName)
+        setWows(randomWows)
     }
 
     return (
@@ -71,14 +65,14 @@ export default function RandomWowSearch() {
                     </div>
                     <div>
                         <label htmlFor="movie-name-select">Name of movie:</label>
-                        <select id="movie-name-select" name="movie-name">
-                            { movieNames.map(movie => <option key={movie} value={movie}>{movie}</option>) }
+                        <select id="movie-name-select" name="movie-name" onChange={(event) => setMovieName(event.target.value)}>
+                            { movieList.map(movie => <option key={movie} value={movie}>{movie}</option>) }
                         </select>
                     </div>
                     <div>
                         <label htmlFor="director-name-select">Name of director:</label>
-                        <select id="director-name-select" name="director-name">
-                            { directorNames.map(director => <option key={director} value={director}>{director}</option>) }
+                        <select id="director-name-select" name="director-name" onChange={(event) => setDirectorName(event.target.value)}>
+                            { directorList.map(director => <option key={director} value={director}>{director}</option>) }
                         </select>
                     </div>
                 </div>
